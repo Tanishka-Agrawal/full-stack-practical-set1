@@ -1,0 +1,20 @@
+{
+  "name": "fitness-app",
+  "version": "1.0.0",
+  "description": "A fitness workout tracking application",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^7.5.0",
+    "ejs": "^3.1.9",
+    "express-session": "^1.17.3",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^8.0.0",
+    "method-override": "^3.0.0"
+  }
+}
